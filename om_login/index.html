@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<style type="text/css">
+		.section_one{
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-image: url('images/Asset3.png');
+			background-color: #97C83B;
+			width: auto;
+			height: 360px;
+		}
+		.section_one .test{
+			padding: 20px;
+		}
+		.section_one .first{
+			position: absolute;
+			top: 30px;
+			left: 20px;	
+		}
+		body{
+			background: #E3E7D3;
+		}
+		.section_two{
+			margin: auto;
+			width: 400px;
+			background-color: #fff;
+			padding: 20px;
+			position: relative;
+			top: -160px;
+		}
+		h2{
+			margin: auto;
+			width: 400px;
+			color: #fff;
+			padding-left: 20px;
+			position: relative;
+			top: -200px;
+		}
+		button{
+			width: 100%;
+			background: #97C83B !important;
+			color: #fff !important;
+			border-radius: none !important;
+		}
+		.form-control{
+			border-radius: none !important;
+		}
+	</style>
+</head>
+<body>
+	<div class="section_one">
+		<img src="images/olam.png" class="first">
+		<img src="images/Asset2.png" class="test">
+	</div>
+	<h2>Corporate Activity Tracker</h2>	
+	<div class="section_two">
+		<form action="/">
+			<div class="form-group">
+				<label for="username">User Name</label>
+				<input type="text" class="form-control" id="username">
+			</div>
+			<div class="form-group">
+				<label for="pwd">Password</label>
+				<input type="password" class="form-control" id="pwd">
+			</div>
+			<div class="form-group loginBtn">
+				<button type="submit" class="btn btn-default">Login</button>
+			</div>
+		</form>
+	</div>
+</body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</html>
